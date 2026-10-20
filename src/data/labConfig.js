@@ -3,7 +3,7 @@
  * Edit company details, contact channels, and disclaimers in this single file.
  */
 export const labConfig = {
-  name: "ATML Laboratory",
+  name: "NITML Laboratory",
   legalName: "Advanced Testing & Materials Laboratory",
   shortTagline: "Precision Testing. Reliable Results. Stronger Infrastructure.",
   description:

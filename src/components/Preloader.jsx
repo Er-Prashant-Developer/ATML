@@ -225,20 +225,20 @@ export const Preloader = ({ onComplete }) => {
       {/* Main content */}
       <div ref={contentRef} className="relative z-10 w-full max-w-4xl mx-auto px-4 sm:px-6 flex flex-col items-center justify-center flex-grow py-8 sm:py-12">
         {/* Logo */}
-        <div ref={logoRef} className="mb-4 sm:mb-6 flex flex-col items-center group">
-          <div className="relative p-2 flex items-center justify-center filter drop-shadow-[0_0_20px_rgba(255,101,0,0.45)]">
-            {/* SVG icon (flask) */}
-            <svg viewBox="0 0 100 100" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M40 14h20" stroke="#FFFFFF" strokeWidth="4" strokeLinecap="round" />
-              <path d="M44 14V30L26 71C23 78 28 86 36 86h28c8 0 13-8 10-15L56 30V14" stroke="#FFFFFF" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-              {/* Fill interior */}
-              <path d="M20 54 Q50 48 80 54 V90 H20 Z" fill="#FF6500" />
-              <path d="M20 60 Q50 56 80 60 V90 H20 Z" fill="#E65100" opacity="0.6" />
-              <path d="M28 86 C36 76 43 64 52 54 L38 54 C30 63 24 75 22 86 Z" fill="#132030" />
-              <path d="M29 86 C35 77 40 68 46 56" stroke="#FFD000" strokeWidth="2.5" strokeDasharray="4 3" strokeLinecap="round" />
-            </svg>
-          </div>
-        </div>
+        
+<div
+  ref={logoRef}
+  className="mb-4 sm:mb-6 flex flex-col items-center group"
+>
+  <div className="relative flex items-center justify-center drop-shadow-[0_0_20px_rgba(201,154,53,0.25)]">
+    <img
+      src="/images/logo.png"
+      alt="NIMTL - National Infrastructure Material Testing Laboratory"
+      className="w-40 h-auto sm:w-48 md:w-56 object-contain"
+    />
+  </div>
+</div>
+
         {/* Title */}
         <div ref={titleRef} className="text-center mb-8 sm:mb-12">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-[0.12em] font-display uppercase leading-tight drop-shadow-sm">
